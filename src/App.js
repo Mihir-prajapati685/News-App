@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import Navbar from "./component/Navbar";
-import News from './component/News'
-import './App.css';
+
+
+import FetchApi from './component/FetchApi'
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 
 function App() {
     return (
-        <>
-            <Navbar/>
-            <News/>
-        </>
+        <div className='container'>
+            <FetchApi/>
+        </div>
     );
 }
 
